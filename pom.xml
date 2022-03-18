@@ -3,11 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+
+
    <!--Parent -->
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.4</version>
+        <version>2.5.6</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -19,10 +21,13 @@
     <name>vemser</name>
     <description>Demo project for Spring Boot</description>
 
+
+
     <!-- Propriedades, versão do projeto-->
     <properties>
         <java.version>11</java.version>
     </properties>
+
 
 
     <!--Dependências-->
@@ -112,6 +117,8 @@
 
     </dependencies>
 
+
+
     <!--Gerenciador de dependência-->
     <dependencyManagement>
         <dependencies>
@@ -124,6 +131,9 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+
+
 
     <!--Informações de build-->
     <build>
