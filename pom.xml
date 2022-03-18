@@ -127,13 +127,13 @@
 
     <!--Informações de build-->
     <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-<!--                <version>${project.parent.version}</version>-->
-            </plugin>
-        </plugins>
+<!--        <plugins>-->
+<!--            <plugin>-->
+<!--                <groupId>org.springframework.boot</groupId>-->
+<!--                <artifactId>spring-boot-maven-plugin</artifactId>-->
+<!--&lt;!&ndash;                <version>${project.parent.version}</version>&ndash;&gt;-->
+<!--            </plugin>-->
+<!--        </plugins>-->
     </build>
 
 </project>
